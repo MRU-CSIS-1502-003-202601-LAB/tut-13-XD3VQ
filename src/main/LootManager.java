@@ -21,9 +21,17 @@ public class LootManager {
         System.out.println("--- Current Inventory ---");
         for (Loot item : inventory) {
             System.out.println(item.getName() + " [" + item.getRarity() + "] - " +
-            item.getEffectDescription());
+                    item.getEffectDescription());
         }
         System.out.println("-------------------------");
         System.out.println();
+    }
+
+    public static LootManager load(String startFilePath) {
+        return null;
+
+    }
+
+    public void save(String endFilePath) {
     }
 }
